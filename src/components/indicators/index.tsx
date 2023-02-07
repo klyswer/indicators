@@ -13,7 +13,9 @@ const Indicators = ({ indicators }: Props) => {
   return (
     <div className="container-main bg-indicators ">
       {indicators.map((indicator) => (
-        <CardIndicator data={indicator} />
+        <div key={indicator?.codigo}>
+          <CardIndicator data={indicator} />
+        </div>
       ))}
     </div>
   );
