@@ -1,0 +1,25 @@
+.bg-indicators {
+  background: #0b8df7;
+  background: -webkit-linear-gradient(to right, #16002e, #58b4ff);
+  background: linear-gradient(to right, #16002e, #58b4ff);
+}
+
+.container-main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-container {
+    border: 2px solid rgb(41, 0, 70);
+    border-radius: 2rem;
+}
+
+.box-custom {
+    background-color: rgb(41, 0, 70);
+    color: wheat;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: 10px;
+}
