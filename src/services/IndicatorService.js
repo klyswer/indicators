@@ -6,12 +6,11 @@ class IndicatorService {
   constructor() {
     this.url = `${Config.URL_SERVICE}`;
     this.api = new Api({ url: this.url });
-    this.api.createEntity({ name: 'api' });
+    this.api.createEntity({ name: 'proxy' });
   }
 
   getIndicators() {
-    // const config = { headers: {"Content-Type": "application/json", Authorization:`Bearer ${token}`}}
-    return this.api.endpoints.api
+    return this.api.endpoints.proxy
       .get()
       .then(response => {
         return response.data;

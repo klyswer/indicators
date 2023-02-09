@@ -14,7 +14,7 @@ class Config {
         this.MS_PATH = process.env.REACT_APP_MS_PATH;
         this.BASE_URL_API = process.env.REACT_APP_BASE_URL_API;
         this.ENVIRONMENT = process.env.NODE_ENV;
-        this.URL_SERVICE = 'https://mindicador.cl/';
+        this.URL_SERVICE = 'https://py1nu8h2ia.execute-api.us-east-1.amazonaws.com/apigetway/';
     }
   
   }
